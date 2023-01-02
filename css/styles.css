@@ -1,0 +1,149 @@
+body {
+  font-family: "Montserrat", san-serif;
+  text-align: center;
+}
+
+/* Headings */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", san-serif;
+}
+
+.big-title {
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ef8172;
+  color: white;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Title */
+
+#title {
+  text-align: left;
+}
+.container-fluid {
+  padding: 7% 15%;
+}
+#title .container-fluid {
+  padding: 3% 7% 15%;
+}
+.navbar-brand {
+  font-family: "Ubuntu", san-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+/* Iphone image */
+.iphone-img {
+  transform: rotate(30deg);
+  position: absolute;
+  top: 200px;
+  right: 200px;
+}
+@media (max-width: 720px) {
+  .iphone-img {
+    position: static;
+    transform: rotate(0);
+    text-align: center;
+  }
+}
+.navbar {
+  padding: 0 0 4.5rem;
+}
+/* Download button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Features and Icons */
+
+.features-h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: black;
+  padding-bottom: 1rem;
+}
+.features-icons {
+  font-size: 100px;
+  color: #ef8172;
+  padding-bottom: 1rem;
+}
+#features {
+  color: #8f8f8f;
+
+  position: relative;
+  z-index: 1;
+}
+.features-icons:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+
+.testimonials-h2 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press {
+  padding-bottom: 3%;
+}
+.press-img {
+  width: 15%;
+  margin: 20px 15px 50px;
+}
+
+/* Pricing */
+
+.card {
+  margin: 7% 15%;
+}
+#pricing {
+  padding: 100px;
+}
+.price-text-h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: black;
+  padding-bottom: 1rem;
+}
+.price-text-h2 {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* CTA and footer section */
+
+.footer-icn {
+  margin: 25px 10px;
+}
